@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj's Professional Data Analyst Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(90deg, #4CAF50, #2c8a45);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        /* Navigation */
+        nav {
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #4CAF50;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #2c8a45;
+        }
+
+        /* Section Styles */
+        section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* About Me */
+        #about p {
+            line-height: 1.8;
+        }
+
+        /* Skills */
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        #skills ul li {
+            background: #f4f4f9;
+            padding: 10px 20px;
+            border: 1px solid #eaeaea;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #333;
+            flex: 1 1 30%;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Projects */
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            border: 1px solid #eaeaea;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .project img {
+            width: 40%;
+            object-fit: cover;
+        }
+        .project .content {
+            padding: 20px;
+            flex: 1;
+        }
+        .project h3 {
+            margin: 0;
+            color: #4CAF50;
+        }
+        .project p {
+            margin: 10px 0 0;
+            line-height: 1.6;
+        }
+
+        /* Contact */
+        #contact ul {
+            list-style: none;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anuj's Data Analyst Portfolio</h1>
+        <p>Experienced Data Analyst | Turning Data into Strategic Insights</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            With over 5 years of experience in data analysis, I specialize in uncovering actionable insights from complex datasets. 
+            My expertise spans advanced analytics, predictive modeling, and business intelligence, enabling organizations to make informed decisions. 
+            I am passionate about leveraging data to solve challenges, optimize processes, and drive results.
+        </p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python & R Programming</li>
+            <li>Advanced SQL & Database Design</li>
+            <li>Data Visualization (Tableau, Power BI)</li>
+            <li>Machine Learning & Predictive Modeling</li>
+            <li>Big Data Tools (Hadoop, Spark)</li>
+            <li>Statistical Analysis</li>
+            <li>ETL Processes</li>
+            <li>Cloud Services (AWS, Azure)</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="https://via.placeholder.com/400x200" alt="Project 1">
+            <div class="content">
+                <h3>Global Sales Dashboard</h3>
+                <p>
+                    Designed an interactive Tableau dashboard for a Fortune 500 company, enabling executives to analyze global sales trends and KPIs.
+                    Increased decision-making efficiency by 40%.
+                </p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://via.placeholder.com/400x200" alt="Project 2">
+            <div class="content">
+                <h3>Customer Churn Prediction</h3>
+                <p>
+                    Built a machine learning model in Python to predict customer churn with 90% accuracy, helping reduce churn rate by 15% in 6 months.
+                </p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://via.placeholder.com/400x200" alt="Project 3">
+            <div class="content">
+                <h3>Marketing Campaign Analysis</h3>
+                <p>
+                    Conducted A/B testing and statistical analysis in R to evaluate marketing campaigns, improving conversion rates by 25%.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:your_email@example.com">your_email@example.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/anuj" target="_blank">linkedin.com/in/anuj</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/anuj" target="_blank">github.com/anuj</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2025 Anuj's Portfolio | Data-Driven Excellence</p>
+    </footer>
+</body>
+</html>
